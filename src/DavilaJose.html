@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Reserva de hoteles</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="../src/estilos.css">
+    <link rel="stylesheet" href="../src/style.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+</head>
+
+<body>
+    <!-- header -->
+    <header class="bg-black p-2">
+        <div class="container flex items-center flex-col sm:flex-row justify-between mx-auto text-white">
+            <a href="/" class="flex items-center">
+                <h1 class="my-2 text-4xl sm:ml-0 sm:text-title sm:leading-none ">EcuTravel</h1>
+                <i class="fas fa-plane-departure text-2xl sm:text-logo ml-2"></i>
+            </a>
+
+            <i id="bar" class="block text-3xl sm:hidden fas fa-bars"></i>
+
+            <nav id="nav" class="opacity-0 h-0 invisible sm:visible sm:h-auto sm:opacity-100 sm:flex gap-2 flex-col text-center sm:flex-row sm:justify-between sm:gap-4 sm:text-2sm transition-all duration-300 ease-in-out">
+                <a class="hover:text-orange-500 text-lg" href="RuizJonathan.html">Vuelos</a>
+                <a class="hover:text-orange-500 text-lg" href="DavilaJose.html">Hoteles</a>
+                <a class="hover:text-orange-500 text-lg" href="RonquilloVanessa.html">Reserva de Autos</a>
+                <a class="hover:text-orange-500 text-lg" href="TenemeaNeysser.html">Gastronomia</a>
+            </nav>
+        </div>
+    </header>
+  
+    
+    <!-- header -->
+    <section>
+        <div class="slider">
+            <ul>
+                <li><img class="imgslider"  src="../img/galapagos.jpg"
+                        alt="">
+                        <h3 class="reserv">Galápagos</h3>
+                    </li>
+                        
+                <li><img class="imgslider" src="../img/cuenca.jpg"
+                        alt="">
+                        <h3 class="reserv">Cuenca</h3>
+                    </li>
+                <li><img class="imgslider" src="../img/quito.jpg"
+                        alt="">
+                        <h3 class="reserv">Quito</h3>
+                    </li>
+                <li><img class="imgslider" src="../img/amazonia.jpg"
+                        alt="">
+                     <h3 class="reserv">Amazonia</h3>
+                    
+                    </li>
+                        
+            </ul>
+        </div>
+    </section>
+    
+
+    <!-- divisor y paalabras -->
+
+
+
+
+    <!-- Tarjetas ↓ -->
+
+    <div class="container2">
+
+        <div class="card">
+            <img src="../img/spa.jpg"
+                alt="">
+            <h4 class="titleCard">Spa</h4>
+            <p class="textCard">Un espacio de relajación y salud, con los mejores para los mejores, disfruta de la calidad y el placer,
+            </p>
+            <a class="textMas" href="#">Leer mas</a>
+        </div>
+
+        <div class="card">
+            <img src="../img/confort.jpg"
+                alt="">
+            <h4 class="titleCard">Confort</h4>
+            <p class="textCard">Siente la comodidad y tranquilidad en un solo espacio, calma y paz para ti, te lo mereces!</p>
+            <a class="textMas" href="#">Leer mas</a>
+        </div>
+        <div class="card">
+
+            <img src="../img/restaurante.jpg" alt="">
+            <h4 class="titleCard">Restaurantes</h4>
+            <p class="textCard">Si de sabores se trata, disfruta de los mejores sabores y siente como tu paladar llega a otro nivel. </p>
+            <a class="textMas" href="#">Leer mas</a>
+        </div>
+
+        <div class="card">
+            <img src="../img/gym.jpg" alt="">
+            <h4 class="titleCard">Gimnasio</h4>
+            <p class="textCard">Espacios para ejercitarse de primera, implementados al maximo y sin limitaciones. </p>
+            <a class="textMas" href="#">Leer mas</a>
+        </div>
+
+        <div class="card">
+            <img src="../img/arte.jpg" alt="">
+            <h4 class="titleCard">Arte</h4>
+            <p class="textCard">Disfruta, siente y vive el arte, despierta el artista que llevas dentro de ti junto a nosotros.</p>
+            <a class="textMas" href="#">Leer mas</a>
+        </div>
+        <div class="card">
+
+            <img src="../img/diversion.jpg"
+                alt="">
+            <h4 class="titleCard">Diversión</h4>
+            <p class="textCard"> "Momentos unicos llenos de espectaculo y diversión para vivirlos con quien quieras y a la hora que quieras.</p>
+            <a class="textMas"href="#">Leer mas</a>
+        </div>
+        
+    </div>
+
+    <br>
+
+    <div id="divbutton">
+        <a href="formularioDávila.html" class="butt"> Reserva Ahora</a>
+    </div>
+    
+    <!-- footer ↓ -->
+    <footer class="bg-black" >
+        <div class="container mx-auto flex items-center justify-center flex-col p-2">
+            <a href="/" class="text-white">
+                <i class="text-3xl fas fa-plane-departure"></i>
+            </a>
+            <p class="text-white text-sm">Todos los Derechos Reservados EcuTravel &copy;</p>
+        </div>
+    </footer>
+    <script src="./bundle.js" ></script>
+
+
+</body>
+
+</html>
